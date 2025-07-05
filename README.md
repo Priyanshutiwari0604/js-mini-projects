@@ -50,6 +50,10 @@ js-mini-projects/
 │   ├── style.css
 │   └── script.js
 │
+├── 05-digital-clock/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 └── README.md
 ```
 
