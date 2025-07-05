@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+
+}
+
+#keys{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0,0%,50%);
+}
+
+
+.plus{
+    background-color: hsl(39, 86%, 48%);
+}
+
+.plus:hover{
+    background-color: hsl(39, 86%, 58%);
+}
+
+.plus:active{
+    background-color: hsl(39, 86%, 78%);
+}
+
+.minus{
+    background-color: hsl(39, 86%, 48%);
+}
+
+.minus:hover{
+     background-color: hsl(39, 86%, 58%);
+}
+
+.minus:active{
+    background-color: hsl(39, 86%, 78%);
+}
+
+.multiply{
+    background-color: hsl(39, 86%, 48%);
+}
+
+.multiply:hover{
+    background-color: hsl(39, 86%, 58%);
+}
+
+.multiply:active{
+    background-color: hsl(39, 86%, 78%);
+}
+
+.divide{
+    background-color: hsl(39, 86%, 48%);
+    
+}
+
+.divide:hover{
+    background-color: hsl(39, 86%, 58%);
+}
+
+.divide:active{
+    background-color: hsl(39, 86%, 78%);
+}
+
+.clearScreen{
+    background-color: hsl(39, 86%, 48%);
+}
+
+.clearScreen:hover{
+    background-color: hsl(39, 86%, 58%);
+}
+
+.clearScreen:active{
+    background-color: hsl(39, 86%, 78%);
+}
+
+.equalTo{
+    background-color: hsl(39, 86%, 48%);
+}
+
+.equalTo:hover{
+    background-color: hsl(39, 86%, 58%);
+}
+
+.equalTo:active{
+    background-color: hsl(39, 86%, 78%);
+}
